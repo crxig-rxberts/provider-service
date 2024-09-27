@@ -9,7 +9,7 @@
     "test": "jest --coverage",
     "lint": "eslint .",
     "docker:build": "docker build -t provider-service .",
-    "docker:run": "docker run -p 3008:3008 -d provider-service",
+    "docker:run": "docker run -p 3004:3004 -d provider-service",
     "docker:run:local": "docker run --name provider-service --network bookit-network -p 3004:3004 -e AWS_ENDPOINT=http://dynamodb-local:8000 -e AWS_REGION=local -d provider-service",
     "docker:stop": "docker stop provider-service",
     "docker:clean": "docker rm provider-service"

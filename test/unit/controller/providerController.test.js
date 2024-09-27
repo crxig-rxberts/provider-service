@@ -1,5 +1,5 @@
 const ProviderController = require('../../../src/controller/providerController');
-const { NotFoundError } = require('../../../../client-service/src/middleware/errors');
+const { NotFoundError } = require('../../../src/middleware/errors');
 const ProviderService = require('../../../src/service/providerService');
 const { formatResponse } = require('../../../src/utils/formatResponse');
 

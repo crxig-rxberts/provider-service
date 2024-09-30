@@ -9,10 +9,10 @@ const providerSchema = Joi.object({
   timeSlotLength: Joi.number().integer().positive().required(),
   services: Joi.array().items(Joi.object({
     name: Joi.string().required(),
-    price: Joi.number().positive().required()
+    cost: Joi.number().positive().required()
   })).min(1).required(),
   searchId: Joi.string().required(),
-  providerImage: Joi.string().uri().required()
+  providerImage: Joi.string().required()
 });
 
 function validateProvider(req, res, next) {

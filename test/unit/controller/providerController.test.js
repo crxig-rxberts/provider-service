@@ -14,7 +14,7 @@ describe('ProviderController', () => {
     category: 'Test Category',
     availability: {},
     timeSlotLength: 30,
-    services: [{ name: 'Test Service', price: 100 }],
+    services: [{ name: 'Test Service', cost: 100 }],
     searchId: 'test-search-id',
     providerImage: 'test-image-url'
   };

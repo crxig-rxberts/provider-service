@@ -22,7 +22,7 @@ describe('Provider API Integration Tests', () => {
       sunday: []
     },
     timeSlotLength: 30,
-    services: [{ name: 'Test Service', price: 100 }],
+    services: [{ name: 'Test Service', cost: 100 }],
     searchId: 'test-search-id',
     providerImage: 'https://example.com/test-image.jpg'
   };

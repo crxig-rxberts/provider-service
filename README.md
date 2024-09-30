@@ -1,6 +1,6 @@
-# Client Service
+# Provider Service
 
-Service for managing CLIENT user type data on Bookit.
+Service for managing userType SERVICE_PROVIDER data on Bookit.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Service for managing CLIENT user type data on Bookit.
 - `AWS_REGION`: The AWS region to use (default: `local`)
 - `AWS_ACCESS_KEY_ID`: Your AWS Access Key ID (default: `dummy`)
 - `AWS_SECRET_ACCESS_KEY`: Your AWS Secret Access Key (default: `dummy`)
-- `PORT`: The port the service will run on (default: `3010`)
+- `PORT`: The port the service will run on (default: `3004`)
 
 ## Example `.env` file:
 
@@ -22,7 +22,7 @@ AWS_ENDPOINT=http://localhost:8000
 AWS_REGION=local
 AWS_ACCESS_KEY_ID=dummy
 AWS_SECRET_ACCESS_KEY=dummy
-PORT=3010
+PORT=3004
 ```
 
 ## Running Locally with Docker Compose
